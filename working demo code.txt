@@ -1,0 +1,17 @@
+let questionCounter = 3;
+
+const adj = prompt(`Please type an adjective. ${questionCounter} questions left.`);
+
+questionCounter -= 1;
+
+const ver = prompt(`Please type a verb that is not ending in -ing. ${questionCounter} questions left.`);
+
+questionCounter -=1;
+
+const nn = prompt(`Please type a noun. ${questionCounter} questions left.`);
+
+alert("Ready for MadLibs ?");
+
+console.log(`There once was a ${adj} programmer who wanted to use JavaScript to ${ver} the ${nn}.`);
+
+document.write(sentence);
